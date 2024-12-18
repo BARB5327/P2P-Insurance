@@ -1,55 +1,52 @@
-# Résumé du Travail de Bachelor et Explication de l'Application
+# Summary of Bachelor Thesis and Application Explanation
 
-Ce projet est issu de mon **travail de Bachelor** réalisé à la **Haute École de Gestion de Genève (HEG-GE)** et explore comment la technologie **blockchain** peut être intégrée dans un modèle d'assurance pair-à-pair pour améliorer la transparence, la confiance et l'efficacité.
+This project stems from my **Bachelor Thesis** conducted at the **Haute École de Gestion de Genève (HEG-GE)** and explores how **blockchain technology** can be integrated into a peer-to-peer insurance model to improve transparency, trust, and efficiency.
 
-## Résumé du Travail de Bachelor
+## Summary of the Bachelor Thesis
 
-Le travail de Bachelor, intitulé *"Comment intégrer la blockchain à l'assurance pair-à-pair ?"*, s'inscrit dans un contexte où les modèles d'assurance traditionnels présentent des limites en termes de transparence, de coûts et de confiance. L'objectif était d'explorer comment la technologie **blockchain**, en particulier grâce à ses fonctionnalités d'immuabilité, de transparence et de décentralisation, peut offrir une alternative innovante pour le secteur de l'assurance.
+The Bachelor Thesis, entitled *"How to Integrate Blockchain into Peer-to-Peer Insurance?"*, addresses the limitations of traditional insurance models in terms of transparency, costs, and trust. The goal was to investigate how **blockchain technology**, particularly through its features of immutability, transparency, and decentralization, can offer an innovative alternative for the insurance sector.
 
-### Contexte et Problématique
+### Context and Problem Statement
 
-Les systèmes d'assurance traditionnels sont largement centralisés et dépendent d'intermédiaires comme les compagnies d'assurances pour gérer les primes, les remboursements et la couverture des risques. Ce modèle, bien qu'éprouvé, présente plusieurs limites : des **coûts élevés** en raison des intermédiaires, un manque de **transparence** dans la gestion des fonds et des remboursements, et une **confiance parfois altérée** entre les assurés et l'assureur. Ces défis sont d'autant plus critiques dans un monde où les utilisateurs exigent de plus en plus de contrôle et de clarté dans la gestion de leurs assurances.
+Traditional insurance systems are largely centralized and rely on intermediaries, such as insurance companies, to manage premiums, reimbursements, and risk coverage. While this model is well established, it has significant limitations: **high costs** due to intermediaries, a lack of **transparency** in fund and claims management, and **trust issues** between policyholders and insurers. These challenges are increasingly relevant in a world where users demand more control and clarity over the management of their insurance.
 
-La technologie **blockchain** offre une solution à ces défis grâce à son fonctionnement décentralisé. En supprimant les intermédiaires, elle permet une gestion directe et transparente des transactions. Chaque donnée est stockée de manière sécurisée et immuable, ce qui renforce la confiance des utilisateurs. L'assurance pair-à-pair, qui repose sur un modèle collaboratif où les membres du réseau s'assurent mutuellement, se marie parfaitement avec la blockchain. Ce travail s'est donc concentré sur la manière dont ces deux concepts peuvent être intégrés pour offrir un nouveau modèle d'assurance.
+**Blockchain technology** provides a solution to these issues with its decentralized nature. By removing intermediaries, it enables direct and transparent management of transactions. Each piece of data is securely and immutably stored, enhancing user trust. Peer-to-peer insurance, which operates on a collaborative model where network members insure each other, aligns perfectly with blockchain. This thesis therefore focused on how these two concepts can be integrated to create a new insurance model.
 
-### Objectifs du Travail
+### Objectives of the Thesis
 
-Le projet visait à :
+The project aimed to:
 
-1. **Explorer la technologie blockchain** : Comprendre son fonctionnement, ses caractéristiques et ses avantages dans un contexte d'assurance.
-2. **Analyser le modèle d'assurance pair-à-pair** : Identifier ses forces et ses faiblesses et examiner comment il peut être amélioré grâce à la blockchain.
-3. **Développer un prototype fonctionnel** : Créer un smart contract en **Solidity** pour démontrer les avantages concrets d'une assurance pair-à-pair décentralisée.
-4. **Évaluer les bénéfices potentiels** : Mettre en avant les améliorations en termes de transparence, de coûts et de confiance apportées par ce modèle.
+1. **Explore blockchain technology**: Understand its operation, characteristics, and advantages in an insurance context.
+2. **Analyze the peer-to-peer insurance model**: Identify its strengths and weaknesses and examine how it can be enhanced through blockchain.
+3. **Develop a functional prototype**: Create a smart contract in **Solidity** to demonstrate the tangible benefits of a decentralized peer-to-peer insurance model.
+4. **Evaluate potential benefits**: Highlight improvements in transparency, costs, and trust offered by this model.
 
-L'étude a démontré que la blockchain, en tant que technologie innovante, peut résoudre plusieurs problématiques du secteur assurantiel, tout en introduisant un modèle plus équitable, transparent et démocratique.
+The study demonstrated that blockchain, as an innovative technology, can address several challenges in the insurance sector while introducing a fairer, more transparent, and democratic model.
 
-## Présentation de l'Application
+## Application Overview
 
-L'application développée repose sur un **smart contract Solidity** déployé sur la blockchain **Ethereum**. Elle offre un système d'assurance pair-à-pair où les utilisateurs gèrent directement leurs primes, déclarent des sinistres et votent sur les décisions de remboursement.
+The developed application is based on a **Solidity smart contract** deployed on the **Ethereum blockchain**. It provides a peer-to-peer insurance system where users directly manage their premiums, declare claims, and vote on reimbursement decisions.
 
-### Fonctionnalités Principales
-1. **Paiement des primes** : Les utilisateurs peuvent payer leurs primes directement dans le smart contract.
-2. **Déclaration de sinistre** : Un assuré peut déclarer un sinistre et demander un remboursement.
-3. **Vote collectif** : Les membres du réseau votent pour accepter ou refuser la demande de remboursement.
-4. **Gestion des fonds** : Une partie des primes collectées est utilisée pour les remboursements, et une autre est allouée à une réserve pour les périodes futures.
-5. **Suivi des informations** : Toutes les transactions, votes et décisions sont visibles et immuables grâce à la blockchain.
+### Key Features
+1. **Premium Payment**: Users can pay their premiums directly into the smart contract.
+2. **Claim Declaration**: A policyholder can declare a claim and request reimbursement.
+3. **Collective Voting**: Network members vote to accept or reject the reimbursement request.
+4. **Fund Management**: A portion of the collected premiums is allocated for claims, while another portion is reserved for future periods.
+5. **Information Tracking**: All transactions, votes, and decisions are visible and immutable through the blockchain.
 
-### Avantages de l'Application
-- **Transparence** : Chaque transaction et chaque décision sont accessibles et vérifiables par tous les utilisateurs.
-- **Confiance** : Les membres du réseau participent activement aux décisions via un système de vote, ce qui renforce la confiance dans le processus.
-- **Réduction des coûts** : L'absence d'intermédiaire permet de diminuer les frais associés aux assurances traditionnelles.
+### Benefits of the Application
+- **Transparency**: Every transaction and decision is accessible and verifiable by all users.
+- **Trust**: Network members actively participate in decisions through a voting system, strengthening confidence in the process.
+- **Cost Reduction**: The absence of intermediaries reduces the expenses associated with traditional insurance.
 
-## Impact du Projet
+## Project Impact
 
-Ce projet démontre que l'intégration de la blockchain dans un modèle d'assurance pair-à-pair présente plusieurs avantages majeurs :
-- **Élimination des intermédiaires** : Les utilisateurs gèrent eux-mêmes les primes et les remboursements, ce qui réduit les coûts et les délais.
-- **Transparence totale** : Grâce à la blockchain, toutes les transactions et décisions sont immuables et accessibles à tous les participants.
-- **Confiance renforcée** : Les utilisateurs participent activement aux décisions, ce qui élimine les doutes sur la gestion des fonds.
-- **Modèle collaboratif** : L'assurance devient un modèle où les membres s'entraident mutuellement, en toute équité et transparence.
+This project demonstrates that integrating blockchain into a peer-to-peer insurance model offers several significant benefits:
+- **Elimination of Intermediaries**: Users manage their premiums and claims independently, reducing costs and delays.
+- **Total Transparency**: Through blockchain, all transactions and decisions are immutable and accessible to all participants.
+- **Enhanced Trust**: Users actively participate in decisions, eliminating doubts about fund management.
+- **Collaborative Model**: Insurance becomes a system where members help each other in a fair and transparent way.
 
 ## Conclusion
 
-Ce travail de Bachelor met en lumière le potentiel des **smart contracts** pour moderniser l'assurance en proposant un modèle décentralisé, transparent et collaboratif. En intégrant la **blockchain Ethereum**, il est possible de créer un système d'assurance pair-à-pair où la transparence et la confiance sont garanties, tout en réduisant les coûts liés aux intermédiaires. Ce projet illustre comment la technologie blockchain peut répondre aux défis actuels du secteur assurantiel tout en proposant une alternative innovante et équitable.
-
-## Remerciements
-Je tiens à remercier **Naoufel Cheikrouhou**, professeur à la HEG-GE, pour son accompagnement tout au long de ce projet.
+This Bachelor Thesis highlights the potential of **smart contracts** to modernize insurance by offering a decentralized, transparent, and collaborative model. By integrating the **Ethereum blockchain**, it becomes possible to create a peer-to-peer insurance system where transparency and trust are guaranteed while reducing costs linked to intermediaries. This project demonstrates how blockchain technology can address current challenges in the insurance sector while offering an innovative and equitable alternative.
