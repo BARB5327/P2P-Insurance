@@ -1,6 +1,6 @@
 # Summary of Bachelor Thesis and Application Explanation
 
-This project stems from my **Bachelor Thesis** conducted at the **Haute École de Gestion de Genève (HEG-GE)** and explores how **blockchain technology** can be integrated into a peer-to-peer insurance model to improve transparency, trust, and efficiency.
+This project stems from my **Bachelor Thesis** conducted at the **Haute École de Gestion de Genève (HEG)** and explores how **blockchain technology** can be integrated into a peer-to-peer insurance model to improve transparency, trust, and efficiency.
 
 ## Summary of the Bachelor Thesis
 
